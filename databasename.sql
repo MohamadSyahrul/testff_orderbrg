@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `penjorderdet` (
 /*!40000 ALTER TABLE `penjorderdet` DISABLE KEYS */;
 INSERT INTO `penjorderdet` (`noorder`, `barangid`, `harga`, `qty`) VALUES
 	(1, 1, 1000.00, 1.00),
-	(2, 2, 2000.00, 2.00);
+	(1, 2, 2000.00, 2.00);
 /*!40000 ALTER TABLE `penjorderdet` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
